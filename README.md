@@ -10,4 +10,4 @@ Having extracted these features, a Neural Network at trajectory-patch level is t
 	* Using DenseTrajectories as feature extractor.
 	* Training and evaluation performed using [deepnet](https://github.com/nitishsrivastava/deepnet) with [Eigen](http://eigen.tuxfamily.org/index.php?title=Main_Page).
 
-![alt text](https://raw.githubusercontent.com/JJorgeDSIC/UCF_101_CLASSIFICATION_TASK_MT/img/UCF_example.png)
+![alt text](./img/UCF_example.png)
