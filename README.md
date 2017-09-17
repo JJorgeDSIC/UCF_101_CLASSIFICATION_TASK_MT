@@ -7,6 +7,6 @@ Having extracted these features, a Neural Network at trajectory-patch level is t
 * Some details
 	* Extraction performed under a SunGridEngine cluster.
 	* Using DenseTrajectories as feature extractor.
-	* Training and evaluation performed using DeepNet (https://github.com/nitishsrivastava/deepnet) with Eigen (http://eigen.tuxfamily.org/index.php?title=Main_Page).
+	* Training and evaluation performed using [deepnet](https://github.com/nitishsrivastava/deepnet) with [Eigen](http://eigen.tuxfamily.org/index.php?title=Main_Page).
 
 TO COMPLETE
