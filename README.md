@@ -1,4 +1,4 @@
-# Action Recognition with Artificial Neural Networks  
+# Action Recognition with Artificial Neural Networks (Master Thesis 13/07/2015)
 
 This repository contains the code developed to extract and process features from the dataset UCF-101 using DenseTrajectories.  
 
@@ -42,6 +42,10 @@ Finally, we have used different voting schemes, i.e: posterior sum or most voted
 ![Example of different voting schemes](./img/EsquemaVotacion.png)
 
 This final procedure improves in every case the classification, obtaining an improvement of 40 percentual points over using just the label provided at patch level.
+
+* TO DO
+
+	* Translate images' text...
 
 
 
