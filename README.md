@@ -16,7 +16,7 @@ Having extracted these features, a Neural Network at trajectory-patch level is t
 
 ### [improved Dense Trajectories (iDT)](https://hal.inria.fr/inria-00583818/document):
 
-![alt text](./img/dense.pdf)
+![alt text](./img/IDT_PIPELINE.png)
 
 Features are extracted around de detected movement, like a 3D patch.
 
@@ -35,11 +35,11 @@ All these values are composed in a 435 feature vector.
 
 We have used a Neural Network at patch level, learning how to classify each patch into one of the 101 classes. Once the training is completed, we can extract features from one video and then classify each patch individually. 
 
-![Proposed architecture](./img/LDNN_IDT)
+![Proposed architecture](./img/LDNN_IDT.png)
 
 Finally, we have used different voting schemes, i.e: posterior sum or most voted, weighting with all the patches in one video, in order to provide the final label.
 
-![Example of different voting schemes](./img/EsquemaVotacion)
+![Example of different voting schemes](./img/EsquemaVotacion.png)
 
 This final procedure improves in every case the classification, obtaining an improvement of 40 percentual points over using just the label provided at patch level.
 
