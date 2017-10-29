@@ -35,11 +35,11 @@ All these values are composed in a 435 feature vector.
 
 We have used a Neural Network at patch level, learning how to classify each patch into one of the 101 classes. Once the training is completed, we can extract features from one video and then classify each patch individually. 
 
-![Proposed architecture](./img/LDNN_IDT.jpeg)
+![Proposed architecture](./img/LDNN_IDT.jpg)
 
 Finally, we have used different voting schemes, i.e: posterior sum or most voted, weighting with all the patches in one video, in order to provide the final label.
 
-![Example of different voting schemes](./img/EsquemaVotacion.jpeg)
+![Example of different voting schemes](./img/EsquemaVotacion.jpg)
 
 This final procedure improves in every case the classification, obtaining an improvement of 40 percentual points over using just the label provided at patch level.
 
